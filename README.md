@@ -1,6 +1,7 @@
 # smartisan-wallpaper-api
 
 ### 请求
+
 > 查询所有来源  
 
 `http://api-app.smartisan.com/app/index.php?r=paperapi/index/list&client_version=2&limit=20&paper_id=0`
@@ -13,8 +14,8 @@
 * `paper_id` 开始 id , 即响应中的 id
 * `source` 来源
 
-### 来源可选值
-* Artand
+### 来源
+
 * Unsplash
 * Minimography
 * Pexels
@@ -23,9 +24,10 @@
 * Snapwiresnaps
 * Memento
 * 壁纸摄影大赛精选
-
+* 纹理与材质壁纸
 
 ### 响应实例
+
 ```
 {
     "code":0,
@@ -49,3 +51,7 @@
     ]
 }
 ```
+
+### 内容
+
+共 2472 张壁纸，大小约为 12GB。
